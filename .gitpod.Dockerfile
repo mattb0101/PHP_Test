@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-USER mattb0101
+USER gitpod
 
 RUN sudo apt-get update -q \
     && sudo apt-get install -y php-dev
